@@ -2,7 +2,7 @@
 
 for /f "eol=; tokens=*" %%I in ('powershell Get-Clipboard') do set id=%%I
 
-yt-dlp.exe -o "G:/DOWNLOAD/%%(id)s.%%(ext)s" %id%
+yt-dlp.exe --recode mp4 -o "G:/DOWNLOAD/%%(id)s.%%(ext)s" %id%
 
 yt-dlp.exe --skip-download --print id %id% > temporarilementedesicration.txt
 
