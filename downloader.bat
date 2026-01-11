@@ -2,9 +2,9 @@
 
 for /f "eol=; tokens=*" %%I in ('powershell Get-Clipboard') do set id=%%I
 
-G:\DOWNLOAD\yt-dlp.exe --recode mp4 -o "G:/DOWNLOAD/%%(id)s.%%(ext)s" %id%
+yt-dlp.exe -o "G:/DOWNLOAD/%%(id)s.%%(ext)s" %id%
 
-G:\DOWNLOAD\yt-dlp.exe --skip-download --print id %id% > temporarilementedesicration.txt
+yt-dlp.exe --skip-download --print id %id% > temporarilementedesicration.txt
 
 set /p my_variable=<temporarilementedesicration.txt
 
