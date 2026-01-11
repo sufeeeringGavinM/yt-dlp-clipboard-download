@@ -1,5 +1,5 @@
 # yt-dlp-clipboard-download
-Uses yt-dlp to download video in clipboard then places downloaded file back to clipboard.
+Uses yt-dlp to download video in clipboard then places downloaded file back to clipboard. Requires ffmpeg for converting downloaded video to mp4
 
 # Installation
 0. Install ffmpeg
