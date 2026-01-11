@@ -1,5 +1,5 @@
 # yt-dlp-clipboard-download
-Uses yt-dlp to download then place downloaded file to clipboard
+Uses yt-dlp to download video in clipboard then places downloaded file back to clipboard
 
 # Installation
 0. Install ffmpeg (optional if you remove --recode mp4 from downloader.bat)
@@ -8,7 +8,7 @@ Uses yt-dlp to download then place downloaded file to clipboard
 3. Change instances of G:/DOWNLOAD to the directory where you want to download your video files.
 
 # Usage
-Click downloader.bat, wait for the command prompt window to disappear. File should be in your clipboard now. Just CTRL+V somewhere to send it. Personally, I use this to send youtube videos through chat.
+Copy the link of the video you want to download then click downloader.bat. Wait for the command prompt window to disappear. File should be in your clipboard now. Just CTRL+V somewhere to send it. Personally, I use this to send youtube videos through chat.
 
 # Note
 This recodes video files to mp4. This makes it require ffmpeg. If you don't wanna have to download that, remove --recode mp4
