@@ -1,7 +1,5 @@
 @echo off
 
-taskkill /FI "IMAGENAME eq explorer.exe" /FI "WINDOWTITLE eq D*"
-
 for /f "eol=; tokens=*" %%I in ('powershell Get-Clipboard') do set id=%%I
 
 G:\DOWNLOAD\yt-dlp.exe --recode mp4 -o "G:/DOWNLOAD/%%(id)s.%%(ext)s" %id%
