@@ -3,8 +3,8 @@
 :: takes clipboard content as variable
 for /f "eol=; tokens=*" %%I in ('powershell Get-Clipboard') do set id=%%I
 
-:: uncomment this if you don't want autoupdate everytime
-:: G:\DOWNLOAD\yt-dlp.exe -U
+:: uncomment this if you want autoupdate everytime
+:: .\yt-dlp.exe -U
 
 :: actual downloading, remove --recode mp4 if you want original format
 .\yt-dlp.exe --recode mp4 -o "%%(id)s.%%(ext)s" %id%
