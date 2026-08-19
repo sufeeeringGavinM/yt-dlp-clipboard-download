@@ -3,7 +3,7 @@ Uses yt-dlp to download video in clipboard then places downloaded file back to c
 # Installation
 0. Install ffmpeg
 1. Download yt-dlp.exe [here](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe)
-2. Download downloader.bat and fcopy.bat. Place them in the same folder as the yt-dlp.exe.
+2. Download downloader.bat and fcopy.bat. Place them in the same folder as the yt-dlp.exe. Or, use the one-file version yt-dlp-copier.bat
 
 # Usage
 Copy the link of the video you want to download then click downloader.bat. Wait for the command prompt window to disappear. File should be in your clipboard now (and the directory you put downloader.bat in). Just CTRL+V somewhere to send it. 
